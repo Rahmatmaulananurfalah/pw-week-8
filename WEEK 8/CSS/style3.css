@@ -1,0 +1,20 @@
+body{
+    margin: 20vh 5vw;
+}
+.container{
+    display: flex;
+}
+img{
+   height: 10vw;
+   
+   margin: 20px;
+}
+.item1 img{
+    width: 370px;
+}
+.item2 img{
+    width: 370px;
+}
+.item3 img{
+    width: 370px;
+}

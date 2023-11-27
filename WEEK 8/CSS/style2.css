@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    min-height: 500px;
+    flex-direction: column;
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    height: 500px;
+}
+
+main article {
+    background-color: white;
+    flex: 4;
+    padding: 20px;
+}
+
+main nav {
+    background-color: plum;
+    flex: 1;
+    height: 350px;
+    padding: 20px;
+}
+
+main aside {
+    background-color: turquoise;
+    flex: 1;
+    padding: 15px;
+}

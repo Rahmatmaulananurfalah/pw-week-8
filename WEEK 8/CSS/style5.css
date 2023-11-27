@@ -1,0 +1,65 @@
+body{
+    color-scheme: red;
+}
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.wrapper>*{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+.header{
+    background-color: lightblue;
+    height: 120px;
+}
+.foother{
+    background-color: lightblue;
+    height: 80px;
+}
+.main{
+   text-align: justify;
+    background: tomato;
+    height: 300px;
+    font-size: 24px;
+    object-fit: cover;
+}
+.main p{
+    display: flex;
+}
+img{
+   
+    width: 10%;
+    height: 10%;
+   
+
+}
+.aside{
+    background-color: lightseagreen;
+}
+
+@media all and (min-width: 800px){
+    .main{
+        flex: 3;
+    }
+    .aside{
+        order: 1;
+    }
+   
+    }
+    .main{
+        order: 2;
+
+    }
+    .foother{
+        order: 4;
+    }
+
+@media all and (min-width: 600px){
+    .aside{
+        flex: 1;
+    }
+}
